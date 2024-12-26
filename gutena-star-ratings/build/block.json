@@ -1,0 +1,62 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "gutena/star-ratings",
+  "title": "Star Ratings",
+  "category": "gutena",
+  "keywords": [
+    "product reviews",
+    "reviews",
+    "ratings",
+    "star reviews",
+    "testimonials"
+  ],
+  "description": "Star Ratings Block by Gutena",
+  "textdomain": "gutena-star-ratings",
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "ariaLabel": true,
+    "html": false,
+    "spacing": {
+      "padding": true,
+      "margin": true
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    }
+  },
+  "attributes": {
+    "uniqueId": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string",
+      "default": "left"
+    },
+    "numRating": {
+      "type": "number",
+      "default": 5
+    },
+    "ratingScale": {
+      "type": "number",
+      "default": 5
+    },
+    "iconSize": {
+      "type": "number"
+    },
+    "iconColor": {
+      "type": "string"
+    },
+    "blockStyles": {
+      "type": "object"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css"
+}
