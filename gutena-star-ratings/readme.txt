@@ -1,9 +1,9 @@
 === Gutena Star Ratings ===
-Contributors: expresstech, infosatech
+Contributors: wpexpertsio
 Tags: product reviews, reviews, ratings, star reviews, testimonials
 Requires at least: 5.8
-Tested up to: 6.1
-Stable tag: 1.0.0
+Tested up to: 6.9
+Stable tag: 1.0.1
 Requires PHP: 5.6
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
@@ -58,6 +58,9 @@ If you like this plugin, consider exploring our other themes and plugins:
 1. Activate Gutena Star Ratings from your Plugins page.
 
 == Changelog ==
+
+= 1.0.1 - Dec 18, 2025 =
+* FIX - Added Compatibility with WordPress 6.9 
 
 = 1.0.0 =
 Release Date: 17th February, 2023

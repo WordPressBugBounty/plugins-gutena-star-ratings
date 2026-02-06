@@ -2,9 +2,9 @@
 /**
  * Plugin Name:     Gutena Star Ratings
  * Description:     Gutena Star Ratings
- * Version:         1.0.0
- * Author:          ExpressTech
- * Author URI:      https://expresstech.io
+ * Version:         1.0.1
+ * Author:          Gutena
+ * Author URI:      https://wpexperts.io/
  * License:         GPL-2.0-or-later
  * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:     gutena-star-ratings
@@ -31,7 +31,7 @@ if ( ! class_exists( 'Gutena_Star_Ratings' ) ) {
 		 *
 		 * @var string
 		 */
-		public $version = '1.0.0';
+		public $version = '1.0.1';
 
 		/**
 		 * Instance of this class.
